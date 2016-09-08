@@ -141,11 +141,11 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i>Users<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="#">All Users</a>
+                                <a href="{{route('admin.users.index')}}">All Users</a> <!-- Instead of giving URI here, we are using their name. To make it dynamic.-->
                             </li>
 
                             <li>
-                                <a href="#">Create User</a>
+                                <a href="{{route('admin.users.create')}}">Create User</a>
                             </li>
 
                         </ul>
